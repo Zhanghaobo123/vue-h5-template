@@ -1,12 +1,10 @@
-@import './variables.scss';
-@import './mixin.scss';
-
+@charset "UTF-8";
 html,
 body .app {
   color: #333333;
   font-family: '汉仪旗黑', Arial, Helvetica, 'STHeiti STXihei', 'Microsoft YaHei', Tohoma, sans-serif;
-  background-color: $background-color;
-}
+  background-color: #f8f8f8; }
+
 html,
 body,
 #app,
@@ -15,11 +13,8 @@ body,
   margin: 0;
   height: 100%;
   overflow: hidden;
-  -webkit-overflow-scrolling: touch;
-}
-.app-container {
-  // padding-bottom: 50px;
-}
+  -webkit-overflow-scrolling: touch; }
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -36,9 +31,6 @@ body,
 			if(deviceWidth > 640){deviceWidth = 640}
 			document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
 */
-
-@charset "utf-8";
-
 body {
   line-height: normal;
   font-size: 0.16rem;
@@ -46,13 +38,11 @@ body {
   font-family: 'Adobe blackbody STD;', 'Microsoft YaHei', Arial, Helvetica, sans-serif;
   /* max-width: 640px; */
   -webkit-user-select: none;
-  user-select: none;
-}
+  user-select: none; }
 
 body,
 html {
-  min-height: 100%;
-}
+  min-height: 100%; }
 
 body,
 input,
@@ -62,8 +52,7 @@ select,
 option,
 label {
   font-family: Tahoma, Arial, Roboto, 'Droid Sans', 'Helvetica Neue', 'Droid Sans Fallback', 'Heiti SC', 'Hiragino Sans GB', \5b8b\4f53, \5fae\8f6f\96c5\9ed1, \9ed1\4f53, sans-self;
-  color: white;
-}
+  color: white; }
 
 div,
 span,
@@ -139,8 +128,7 @@ video {
   vertical-align: baseline;
   background: transparent;
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 
 article,
 aside,
@@ -153,8 +141,7 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
-}
+  display: block; }
 
 input,
 button,
@@ -169,77 +156,64 @@ option {
   -moz-appearance: none;
   -ms-appearance: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  border-radius: 0;
-}
+  border-radius: 0; }
 
 nav,
 ul,
 ol {
-  list-style: none;
-}
+  list-style: none; }
 
 blockquote,
 q {
-  quotes: none;
-}
+  quotes: none; }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: none;
-}
+  content: none; }
 
 ins {
   background: #ff9;
   color: #000;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 mark {
   background: #ff9;
   color: #000;
   font-style: italic;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 del {
-  text-decoration: line-through;
-}
+  text-decoration: line-through; }
 
 abbr[title],
 dfn[title] {
   border-bottom: 1px dotted;
-  cursor: help;
-}
+  cursor: help; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 hr {
   display: block;
   height: 1px;
   border: 0;
   margin: 0.1rem 0;
-  padding: 0;
-}
+  padding: 0; }
 
 input,
 select {
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
 html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
-}
+  tap-highlight-color: rgba(0, 0, 0, 0); }
 
 html * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 a {
   margin: 0;
@@ -251,13 +225,11 @@ a {
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
-  -webkit-user-select: none;
-}
+  -webkit-user-select: none; }
 
 a:hover {
   text-decoration: none;
-  color: #333;
-}
+  color: #333; }
 
 img {
   display: block;
@@ -265,15 +237,13 @@ img {
   border: none;
   width: 100%;
   /* 	pointer-events: none;
-	vertical-align: sub; */
-}
+	vertical-align: sub; */ }
 
 .clear {
   width: 0;
   height: 0;
   visibility: hidden;
-  clear: both;
-}
+  clear: both; }
 
 .clearFix::after {
   content: '';
@@ -281,36 +251,30 @@ img {
   width: 0;
   height: 0;
   visibility: hidden;
-  clear: both;
-}
+  clear: both; }
 
 .fl {
-  float: left;
-}
+  float: left; }
 
 .fr {
-  float: right;
-}
+  float: right; }
 
 .flex {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex;
-}
+  display: flex; }
 
 .fx1 {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
-  flex: 1;
-}
+  flex: 1; }
 
 .PuReturn {
   position: fixed;
   z-index: 9;
   right: 50px;
   top: 50px;
-  width: 50px;
-}
+  width: 50px; }
